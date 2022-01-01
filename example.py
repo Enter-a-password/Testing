@@ -1,2 +1,5 @@
-print("This is an example file")
-input("press enter to exit")
+import update
+
+import example
+
+print("hello")
