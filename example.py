@@ -7,4 +7,4 @@ else:
     f = open("version.txt", "r")
     version = f.read()
     f.close()
-    print(f'Version: {version}') # Did not update, so do stuff
+    print(f'Version: {version}') # Did not update, start as normal
