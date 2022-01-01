@@ -1,5 +1,10 @@
 import update
 
-import example
-
-print("hello")
+if update.main():
+    import example # Updated, so restart
+    exit()
+else:
+    f = open("version.txt", "r")
+    version = f.read()
+    f.close()
+    print(f'Version: {version}') # Did not update, so do stuff
